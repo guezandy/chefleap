@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Chef Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Font Awesome -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	
+	<!-- Endless -->
+	<link href="css/endless.min.css" rel="stylesheet">
+	
+  </head>
+
+  <body>
+	<div class="login-wrapper">
+		<div class="text-center">
+			<h2 class="fadeInUp animation-delay10" style="font-weight:bold">
+				<span class="text-success">Chef</span> <span style="color:#ccc; text-shadow:0 1px #fff">Leap</span>
+			</h2>
+	    </div>
+		<div class="login-widget animation-delay1">	
+			<div class="panel panel-default">
+					<form class="form-horizontal no-margin form-border" id="formWizard1" novalidate>
+						<div class="panel-heading">
+							Chef Registration
+						</div>
+						<div class="panel-tab">
+							<ul class="wizard-steps wizard-demo" id="wizardDemo1"> 
+								<li class="active">
+									<a href="#wizardContent1" data-toggle="tab">Step 1</a>
+								</li> 
+								<li>
+									<a href="#wizardContent2" data-toggle="tab">Step 2</a>
+								</li> 
+								<li>
+									<a href="#wizardContent3" data-toggle="tab">Step 3</a>
+								</li>
+							</ul>
+						</div>
+							
+						<div class="panel-body">
+							<div class="tab-content">
+								<div class="tab-pane fade in active" id="wizardContent1">
+									<div class="form-group">
+										<label class="control-label col-lg-2">Username</label>
+										<div class="col-lg-6">
+											<input type="text" id="username" placeholder="Normal text input" class="form-control input-sm" data-required="true">
+										</div><!-- /.col -->
+									</div><!-- /form-group -->
+									<div class="form-group">
+										<label class="control-label col-lg-2">Password</label>
+										<div class="col-lg-6">
+											  <input type="password" id="pass" placeholder="Password" class="form-control input-sm" data-required="true">
+										</div><!-- /.col -->
+									</div><!-- /form-group -->
+									<div class="form-group">
+										<label class="control-label col-lg-2">Confirm Password</label>
+										<div class="col-lg-6">
+											  <input type="password" id="cpass" placeholder="Confirm Password" class="form-control input-sm" data-required="true">
+										</div><!-- /.col -->
+									</div><!-- /form-group -->									
+									<div class="form-group">
+										<label class="control-label col-lg-2">Email</label>
+										<div class="col-lg-6">
+											<input type="text" class="form-control input-sm" placeholder="test@example.com" data-required="true" data-type="email">
+										</div><!-- /.col -->
+									</div><!-- /form-group -->		
+								</div>
+								<div class="tab-pane fade" id="wizardContent2">
+									<div class="form-group">
+										<label class="control-label col-lg-2">Phone</label>
+										<div class="col-lg-6">
+											<input type="text" class="form-control input-sm" placeholder="(XXX) XXXX XXX" data-required="true" data-type="phone">
+										</div><!-- /.col -->
+									</div><!-- /form-group -->		
+									<div class="form-group">
+										<label class="control-label col-lg-2">Website</label>
+										<div class="col-lg-6">
+											<input type="text" class="form-control input-sm" placeholder="Website url" data-required="true" data-type="urlstrict">
+										</div><!-- /.col -->
+									</div><!-- /form-group -->
+								</div>
+								<div class="tab-pane fade padding-md" id="wizardContent3">
+									<h4>Thank you for registering as a Chef on Chef Leap we will be contacting you soon</h4>
+								</div>
+							</div>
+						</div>
+						<div class="panel-footer clearfix">
+							<div class="pull-left">
+								<button class="btn btn-success btn-sm disabled" id="prevStep1" disabled>Previous</button>
+								<button type="submit" class="btn btn-sm btn-success" id="nextStep1">Next</button>
+							</div>
+
+							<div class="pull-right" style="width:30%">
+								<div class="progress progress-striped active m-top-sm m-bottom-none">
+									<div class="progress-bar progress-bar-success" id="wizardProgress" style="width:33%;">
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div><!-- /panel -->
+		</div><!-- /login-widget -->
+	</div><!-- /login-wrapper -->
+	
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <!-- Jquery -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+    
+    <!--Bootstrap-->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+   
+	<!-- Modernizr -->
+	<script src='js/modernizr.min.js'></script>
+	
+	<!-- Pace -->
+	<script src='js/pace.min.js'></script>
+	
+	<!-- Popup Overlay -->
+	<script src='js/jquery.popupoverlay.min.js'></script>
+	
+	<!-- Slimscroll -->
+	<script src='js/jquery.slimscroll.min.js'></script>
+	
+	<!--Cookie-->
+	<script src='js/jquery.cookie.min.js'></script>
+
+	<!--Endless-->
+	<script src="js/endless/endless.js"></script>
+  </body>
+</html>
