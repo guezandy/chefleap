@@ -1303,6 +1303,13 @@ a.list-group-item {
   padding-top: 45px;
   margin-left: 194px;
 }
+#main-container2 {
+  position: relative;
+  min-height: 800px;
+  padding-top: 45px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 @media (max-width: 480px) {
   #main-container {
     min-width: 310px;
