@@ -118,3 +118,5 @@ All images viewed in the live preview are for demo purposes only and are not inc
 These images are courtesy of Daniel Zedda - http://www.flickr.com/photos/astragony/ ,Sweetie187 - http://www.flickr.com/photos/58782395@N03/ ,
 meedanphotos - http://www.flickr.com/photos/meedan/ ,John Karakatsanis - http://www.flickr.com/photos/johnkarakatsanis/ ,
 Yutaka Tsutano - http://www.flickr.com/photos/ivyfield/ and Andreas Dantz - http://www.flickr.com/photos/szene/  
+
+changing the document for a commit
